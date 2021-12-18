@@ -26,7 +26,14 @@ To run the client:
 ```
 npm run client
 ```
-You have to edit the MongoDB URI in config/keys.js with your MongoDB URI
+You have to edit the mongodbURI in config/keys.js with your information.
+The file should have a form like this:
+```
+module.exports = {
+    mongodbURI: 'mongodb+srv://'
+}
+```
+See the MongoDB tutorial above for details.
 
 ### To Do
 
