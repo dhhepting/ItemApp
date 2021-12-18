@@ -28,3 +28,6 @@ npm run client
 ```
 You have to edit the MongoDB URI in config/keys.js with your MongoDB URI
 
+### To Do
+
+A lot!
